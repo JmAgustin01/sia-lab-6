@@ -2,18 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>DevStore Dashboard (PHP)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Vault Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php 
-        $storeName = "DevStore Inventory"; // Example of using PHP variables
-    ?>
+
     <header>
-        <div class="logo-container">
-            <div class="mock-logo">DS</div> 
-            <h1><?php echo $storeName; ?></h1>
-        </div>
+        <div class="logo-box">🕹️ PIXEL</div>
+        <h1>PIXEL VAULT STORE</h1>
     </header>
 
     <main>
@@ -21,14 +18,13 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Preview</th>
-                    <th>Product Title</th>
+                    <th>Image</th>
+                    <th>Product Item</th>
                     <th>Category</th>
                     <th>Price</th>
                 </tr>
             </thead>
-            <tbody id="tableBody">
-                </tbody>
+            <tbody id="tableBody"></tbody>
         </table>
     </main>
 
